@@ -1,0 +1,23 @@
+# requirements.txt
+# Adaptive Sentiment Orchestration (ASO) Pipeline
+# Compatible with Google Colab (Python 3.10+)
+
+# Core ML / Deep Learning
+torch>=2.0.0
+transformers>=4.38.0
+datasets>=2.18.0
+accelerate>=0.27.0
+sentencepiece>=0.1.99
+
+# Classical ML
+scikit-learn>=1.4.0
+
+# Data Handling
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Visualisation
+matplotlib>=3.8.0
+
+# Optional: progress bars (HuggingFace uses it internally)
+tqdm>=4.66.0
