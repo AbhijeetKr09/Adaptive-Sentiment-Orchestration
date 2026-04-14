@@ -21,3 +21,7 @@ matplotlib>=3.8.0
 
 # Optional: progress bars (HuggingFace uses it internally)
 tqdm>=4.66.0
+
+# Hardware Telemetry (SPIT module)
+pynvml>=11.0.0      # GPU telemetry (Colab T4/A100)
+psutil>=5.9.0       # CPU telemetry fallback (temp + RAM usage)
